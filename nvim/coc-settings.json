@@ -1,0 +1,19 @@
+{
+    "pylsp.enable": true,
+    "pylsp.builtin.enableInstallPylspMypy": true,
+    "pylsp.builtin.enableInstallPylsIsort": true,
+    "pylsp.builtin.enableInstallPythonLspBlack": true,
+    "pylsp.builtin.installExtrasArgs": [
+        "flake8",
+        "pycodestyle",
+        "pydocstyle",
+        "pylint",
+        "isort",
+    ],
+    "languageserver": {
+        "lua": {
+            "command": "lua-lsp",
+            "filetypes": ["lua"]
+        }
+    }
+}
