@@ -1,0 +1,15 @@
+# Ignore everything
+*
+
+# Except
+!.gitignore
+!tmux/
+!nvim/
+!tmux/**/**
+!nvim/**/**
+
+# tmux
+tmux/plugins/*
+
+# nvim
+nvim/plugin/*
