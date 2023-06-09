@@ -129,4 +129,8 @@ return require('packer').startup(function(use)
         'kkoomen/vim-doge',
         run = ':call doge#install()'
     }
+
+    use {
+        'justinmk/vim-sneak',
+    }
 end)
