@@ -35,8 +35,3 @@ vim.keymap.set("n", "<leader>Y", "\"+Y")
 vim.keymap.set("n", "<leader>rr", ":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left><Left>")
 -- Rename symbol
 vim.keymap.set("n", "<leader>rn", "<cmd>lua vim.lsp.buf.rename()<CR>")
-
--- source current file
-vim.keymap.set("n", "<leader><leader>", function()
-    vim.cmd("so")
-end)
