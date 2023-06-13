@@ -42,7 +42,7 @@ require 'lspconfig'.pylsp.setup {
         pylsp = {
             plugins = {
                 black = { enabled = true, line_length = 120 },
-                isort = { enabled = true, profile = "black" },
+                isort = { enabled = true, profile = "black", line_length = 120 },
                 pylint = { enabled = true },
                 flake8 = { enabled = false },
                 pyflakes = { enabled = false },
