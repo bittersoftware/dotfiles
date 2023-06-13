@@ -28,8 +28,9 @@ vim.keymap.set("x", "<leader>v", "\"_dP")
 
 -- Avoid accidental quits
 vim.keymap.set("n", "Q", "<nop>")
+
 -- tmux session
-vim.keymap.set("n", "<C-f>", "<cmd>silient !tmux neww tmux-sessionizer<CR>")
+-- vim.keymap.set("n", "<C-f>", "<cmd>silient !tmux neww tmux-sessionizer<CR>")
 
 -- yank to system clipoard
 vim.keymap.set("n", "<leader>y", "\"+y")
