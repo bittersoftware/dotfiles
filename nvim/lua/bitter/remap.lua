@@ -1,7 +1,12 @@
 vim.g.mapleader = " "
 
--- Close buffer
+-- Buffers
 vim.keymap.set("n", "<leader>q", ":bp<bar>sp<bar>bn<bar>bd<CR>")
+vim.keymap.set("n", "<leader>bf", ":bfirst<cr>")
+vim.keymap.set("n", "<leader>bl", ":blast<cr>")
+vim.keymap.set("n", "<leader>bn", ":bnext<cr>")
+vim.keymap.set("n", "<leader>bp", ":bprevious<cr>")
+vim.keymap.set("n", "<leader>bco", ":%bd|e#<cr>")
 
 --SymbolsOutline change modes
 vim.keymap.set("n", "<leader>w", ":w<cr>")
