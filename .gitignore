@@ -1,0 +1,26 @@
+# Ignore everything
+*
+
+# Except
+!.gitignore
+!tmux/
+!nvim/
+!zellij/
+!tmux/*
+!nvim/*
+!zellij/*
+!tmux/**/**
+!nvim/**/**
+!zellij/**/**
+
+
+# tmux
+tmux/plugins/*
+
+# nvim
+nvim/plugin/*
+
+# LF
+!lf/
+!lf/**
+!LF_ICONS
